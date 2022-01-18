@@ -1,0 +1,36 @@
+Arguments: 
+  /home/salokain/.nvm/versions/node/v17.3.1/bin/node /home/salokain/.nvm/versions/node/v17.3.1/bin/yarn add sass gulp
+
+PATH: 
+  /home/salokain/.nvm/versions/node/v17.3.1/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/ProgramData/chocolatey/bin:/c/ProgramData/chocolatey/lib/gsudo/bin/:/c/Program Files/Microsoft VS Code/bin:/c/Program Files/Git/cmd:/c/Program Files/dotnet/:/c/Program Files (x86)/dotnet/:/c/Program Files/OpenSSH-Win64:/c/Program Files/nodejs/:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/nicol/AppData/Local/Microsoft/WindowsApps:/c/Users/nicol/AppData/Roaming/npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/salokain/Dev/Interns/scss-basics/package.json: Unexpected token } in JSON at position 91
+      at JSON.parse (<anonymous>)
+      at /home/salokain/.nvm/versions/node/v17.3.1/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/salokain/.nvm/versions/node/v17.3.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/salokain/.nvm/versions/node/v17.3.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "scss-basics",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

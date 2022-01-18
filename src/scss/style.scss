@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixins";
+
+@import "header";
+@import "footer";
+
+// Cards
+@import "cards";
+
+body {
+    color: blue;
+}
